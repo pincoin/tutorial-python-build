@@ -36,7 +36,7 @@ setup(name='tutorial-python-build',
       scripts=[
       ],
 
-      test_suite='run_tests.run_test_suite',
+      test_suite='tests.get_test_suite',
       tests_require=[
       ],
 
