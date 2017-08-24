@@ -21,6 +21,7 @@ deps =
 `[testenv]` 섹션의 `commands` 변수는 테스트를 실행하는 명령어의 예시는 다음과 같다.
 
 * `coverage run -m unittest discover`
+* `coverage run -a setup.py test`
 * `python setup.py test`
 * `pytest`
 * `nosetests package.module`
