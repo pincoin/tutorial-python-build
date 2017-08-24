@@ -1,0 +1,10 @@
+# http://coverage.readthedocs.io/en/latest/config.html
+[run]
+source = sample
+omit = */test*
+
+[report]
+include = ./*
+exclude_lines =
+    if 0:
+    if __name__ == .__main__.:
