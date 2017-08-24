@@ -30,3 +30,29 @@ deps =
 위 예시에서는 `coverage` 유틸리티를 이용해 테스트를 실행하기로 했으므로 `coverage` 패키지를 임시 설치하여 테스트 진행한다.
 
 ## coverage
+
+
+## 테스트 실행 방법
+파이썬 인터프리터로 직접 실행하는 방법
+
+```
+python -m unittest discover
+```
+
+setup 명령어로 호출하는 방법
+
+```
+python setup.py test
+```
+
+coverage 유틸리티로 호출하는 방법
+
+```
+coverage run -m unittest discover
+```
+
+tox 유틸리티로 호출하는 방법
+
+```
+tox
+```
