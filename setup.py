@@ -5,10 +5,10 @@ from setuptools import setup, find_packages
 with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
     README = readme.read()
 
-setup(name='packaging-tutorial',
+setup(name='tutorial-python-build',
       version='0.1',
       packages=find_packages(exclude=['docs', 'tests']),
-      description='Example package for packaging tutorial',
+      description='Example package for setuptools, tox and coverage',
       long_description=README,
       url='https://www.pincoin.info/',
       author='John Doe',
