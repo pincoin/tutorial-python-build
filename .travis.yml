@@ -6,5 +6,5 @@ python:
   - "3.5"
   - "3.6"
 install:
-  - pip install -q -U pip setuptools tox tox-travis codecov
+  - pip install -q -U pip tox tox-travis codecov
 script: tox
