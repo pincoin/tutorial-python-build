@@ -1,5 +1,6 @@
 # tutorial-python-build
 [![Build Status](https://travis-ci.org/pincoin/tutorial-python-build.svg?branch=master)](https://travis-ci.org/pincoin/tutorial-python-build)
+[![codecov](https://codecov.io/gh/pincoin/tutorial-python-build/branch/master/graph/badge.svg)](https://codecov.io/gh/pincoin/tutorial-python-build)
 
 ## setuptools
 * [setup.py](setup.py)
